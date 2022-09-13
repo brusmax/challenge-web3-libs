@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.main-header{
+  background: #202041;
+}
+.main-header a{
+  color: #fff;;
+}
+.main-header .logo{
+  width: 150px;
+}
+.main-header a:hover{
+  color: orange;
+}
+.main-header .dropdown-item{
+  color: #000;
+}
+.status{
+  margin-top: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.library{
+  padding: 50px 0 10px 0;
+}
+.library label{
+  margin: 0 10px;
+}
+.description{
+  margin: 20px auto;
+  text-align: justify;
+}
+.description img{
+  display: block;
+  margin: 20px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content .card,
+.vote .card{
+  width: 200px;
+  display: inline-flex;
+  margin: 10px 20px;
+
+}
+.content .card .card-title{
+  font-size: 3em;
+}
+.content .card-img-top{
+  width: 150px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vote-section h2{
+  font-size: 3em;
+}
+.vote-section{
+  margin: 30px 0;
+}
+.vote-section .btn{
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.vote-section .vote-button{
+  width: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thanks, .no-founds, .you-have-voted{
+  font-size: 1.5em;
+}
+
+.about-me{
+  border-top: solid 1px #999;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.about-me p, .about-me img{
+  margin: 0 auto;
+}
+.about-me .profile-pic{
+  width: 170px;
+  display: block;
 }
