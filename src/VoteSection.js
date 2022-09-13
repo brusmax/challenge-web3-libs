@@ -102,7 +102,7 @@ function YouHaveVoted(){
 function CodeGitHub(){
   return (
     <>
-      <Button variant="dark" href="https://github.com/brusmax/challenge-web3-libs/tree/master">Get This Code on Github</Button>
+      <Button variant="dark" href="https://github.com/brusmax/challenge-web3-libs">Get This Code on Github</Button>
     </>
   )
 }
